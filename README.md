@@ -29,7 +29,7 @@ const kavi = {
 
 <h2>Code Overview</h2>
 
-<b>Data Structures and Algorithms</b> are building blocks of programming. Data structures enable us to organize and store data, whereas algorithms enable us to process that data in a meaningful sense. Totally there are <b>260 lecture codings</b> and assignments on the way.
+<b>Data Structures and Algorithms</b> are building blocks of programming. Data structures enable us to organize and store data, whereas algorithms enable us to process that data in a meaningful sense. Totally there are <b>260 lecture codings</b> and assignments are on the way.
 
 <h2>What is included</h2>
 
