@@ -1,0 +1,46 @@
+/**
+ * Created By Kavi Arasan
+ */
+package com.geeksforgeeks.dsa.lectures.matrix;
+
+import java.util.Arrays;
+
+public class E_Rotate90Degree {
+    static int[][] arr = {{1,2,3},{4,5,6},{7,8,9}};
+    public static void main(String[] args) {
+        int n = arr.length;
+        print();
+        // TRANSPOSE
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j < arr.length; j++) {
+                swap(i,j,j,i);
+            }
+        }
+        // REVERSE COLUMNS
+        for (int i = 0; i < n; i++) {
+            int low = 0;
+            int high = n - 1;
+            while(low < high) {
+                swap(low,i,high,i);
+                low++;
+                high--;
+            }
+        }
+        System.out.println();
+        print();
+    }
+    public static void swap(int sR, int sC, int dR, int dC) {
+        int[][] temp = new int[arr.length][arr.length];
+        temp[sR][sC] = arr[sR][sC];
+        arr[sR][sC] = arr[dR][dC];
+        arr[dR][dC] = temp[sR][sC];
+    }
+    public static void print() {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
