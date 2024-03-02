@@ -1,45 +1,5 @@
 # 👋 Hey there, I'm Kavi!
 
-I go by **he/him**, and I'm a passionate coder with a dream of becoming an entrepreneur. 🚀
-
-## 🚀 Specializations
-- JavaScript (Js)
-- TypeScript (Ts)
-- Java
-- HTML/CSS
-
-## 🛠️ Tools in My Arsenal
-- React.js
-- Next.js
-- Node.js
-- Express.js
-- Nest.js
-- Zustand & Redux for Global State Management
-- Prisma, Mongoose, and Sequelize.js for ORMs
-- SQL & MongoDB
-
-## 🏗️ Building Blocks
-- Object-Oriented Programming (OOP)
-- Design Patterns
-- ☁️ AWS (Developer Associate Level)
-  - Lambda
-  - EC2
-  - S3
-  - CloudFront
-  - VPC
-
-## 🌐 Tech Enthusiast
-- 💡 Data Science
-- 🤖 Machine Learning
-- 🧠 Deep Learning
-
-## ⚙️ Crafting Microservices
-- 📦 Messaging Queues:
-  - Kafka
-  - SQS
-  - Redis
-- 📈 Data Structures and Algorithms: My Playground
-
 ## 💪 Join Me!
 I'm currently taking on the #advancedDSA challenge, focusing on mastering data structures and algorithms from beginner to advanced.
 
